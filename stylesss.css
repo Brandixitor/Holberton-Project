@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+         background-image: url("https://t2r6u7f9.rocketcdn.me/figz/wp-content/seloads/2014/08/maps-local-search1-ss-1920.jpg");
+        filter: blur(8px);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-origin: content-box;
+        background-position: center;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:600px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
+
+.myButton {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:6px;
+  border:1px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color:#ffab23;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
